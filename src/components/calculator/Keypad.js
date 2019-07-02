@@ -1,4 +1,4 @@
-import React, { COmponent } from 'react';
+import React, { Component } from 'react';
 import { keypadKeys } from '../../utils/constants';
 import Calculator from '../calculator'
 
