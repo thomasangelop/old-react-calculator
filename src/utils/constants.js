@@ -4,4 +4,6 @@ export const keypadKeys = [
     ['4', '5', '6', '-'],
     ['1', '2', '3', '+'],
     ['0', '.','='],
-  ]
+  ];
+export const operators = ['*', '-', '+', '/', '='];
+export const specialOperators = ['c', '%', 'Del'];
