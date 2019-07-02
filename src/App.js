@@ -16,6 +16,7 @@ export class App extends Component {
       <div className='calculator--container'>
         <Caculator.Screen { ...this.props} />
         <Caculator.Keypad { ...this.props} />
+        <Caculator.History { ...this.props} />
       </div>
     );
   }
