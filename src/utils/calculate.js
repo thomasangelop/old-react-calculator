@@ -6,7 +6,7 @@ export default (expression) => {
         return 0;
     }
 
-    if (/^[*+\/]/.test(expression)){
+    if (/^[*+/]/.test(expression)){
         return () => {
           throw new Error('Cannot start the expression with invalid operators');
         }

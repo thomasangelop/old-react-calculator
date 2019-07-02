@@ -26,6 +26,7 @@ const mapStateToProps = (state) => {
   return {
     expression: fromCalculator.getExpression(state),
     total: fromCalculator.getTotal(state),
+    history: []
   }
 }
 

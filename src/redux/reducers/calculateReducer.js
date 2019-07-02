@@ -3,7 +3,8 @@ import calculate from '../../utils/calculate'
 
 let initialState = {
   expression: '',
-  total: 0
+  total: 0,
+  history: []
 }
 
 function setExpression({ expression, total}, action) {

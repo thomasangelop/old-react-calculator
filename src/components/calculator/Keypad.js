@@ -13,6 +13,11 @@ export default class Keypad extends Component {
             break
           case '=':
             this.props.evaluate()
+            // this.setState(props => ({
+            //     history: [...props.history, `${props.expression} = ${props.total}`]
+            // }))
+            console.log(`what is history ${this.props.history}`);
+            
             break
           default:
             this.props.calculate(key)
